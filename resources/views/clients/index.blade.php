@@ -15,7 +15,7 @@
         @csrf
         <div class="form-group">
             <input type="text" class="form-control @error('pseudo') is-invalid @enderror" name="pseudo">
-            @aerror('pseudo')
+            @error('pseudo')
 
             @enderror
             <button type="submit" class="btn btn-primary mt-1" >Ajouter le client</button>
